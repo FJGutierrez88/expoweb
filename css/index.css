@@ -1,0 +1,108 @@
+@font-face{
+	font-family: helveticaneue;
+	src: url('../Font/HelveticaNeue.otf');
+	
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: helveticaneue;
+	color: #bcbcbc;
+}
+
+#menu{
+	position: absolute;
+	width: 65px;
+	height: 100%;
+	background-color: #2f3030;
+	overflow: hidden;
+	-webkit-transition: width 0.5s;
+}
+#menu:hover{
+	width: 170px;
+}
+
+#menu:hove{
+	width: 170px;
+
+}
+
+#logo{
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	background-image: url(../img/logo.png);
+}
+
+.navbar{
+	width: 150px;
+	height: 40px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+#navbar_first{
+	margin-top: 100px;
+}
+
+.home{
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/home.png);
+	float: left;
+}
+
+.text{
+	margin-left: 60px;
+	line-height: 40px;
+}
+
+.search{
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/search.png);
+	float: left;
+}
+
+.about{
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/about.png);
+	float: left;
+}
+
+.contact{
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/contact.png);
+	float: left;
+}
+
+#top_menu{
+	width: 100%;
+	left: 65px;
+	top: 0;
+	height: 60px;
+	background-color: #2f3030;
+}
+
+
+#set_icon{
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+	background-image: url(../img/user.gif);
+	margin-right: 50px;
+	float: right;
+	border-radius: 150px;
+}
+
+.user{
+	text-align: right;
+	margin-right: 80px;
+	padding: 20px;
+}
+
+
+
